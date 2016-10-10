@@ -252,10 +252,10 @@ Test polls and POVs:
 
     crs$ cd /usr/share/cgc-sample-challenges/examples/LUNGE_00002/ && sudo make build generate-polls install
     ...
-    crs$ cb-test --cb LUNGE_00002 --directory bin --xml pov/POV_00000.xml --enable_remote --ids_rules /usr/share/ids/examples/LUNGE_00002.rules 
+    crs$ cb-test --cb LUNGE_00002 --directory bin --xml pov/POV_00000.xml --enable_remote --ids_rules /usr/share/cgc-network-appliance/examples/LUNGE_00002.rules
     ...
 
-    crs$ cb-test --cb LUNGE_00002 --directory bin --xml poller/for-release/GEN_00335.xml --enable_remote --ids_rules /usr/share/ids/examples/LUNGE_00002.rules --pcap ~/LUNGE_00002_pol_gen_00335.pcap
+    crs$ cb-test --cb LUNGE_00002 --directory bin --xml poller/for-release/GEN_00000_00335.xml --enable_remote --ids_rules /usr/share/cgc-network-appliance/examples/LUNGE_00002.rules --pcap ~/LUNGE_00002_pol_gen_00335.pcap
     
 ## Updating Virtual Competition
 
